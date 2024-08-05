@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="./home.html">
+
+        <!-- <fieldset> -->
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <h2><ins>Signup Form</ins></h2>
+
+            <!-- username input -->
+            <label for="username">Frist Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input placeholder="first name" id="Username" type="text" required><br><br>
+
+            <label for="lastname">Last Name: </label>&nbsp;&nbsp;&nbsp;
+            <input placeholder="last name" type="text" name="" id="lastname" required><br><br>
+
+
+            <!-- email input -->
+            <label for="email">Email: </label>&nbsp;&nbsp;&nbsp;
+            <input placeholder="email" type="email" required><br><br>
+
+            <!-- password input -->
+            <label for="password">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input placeholder="password" type="password" maxlength="6" size="15" max-length="80" required>
+            <br><br>
+
+            <!-- conform passowrd  -->
+            <label for="password">Confirm Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input placeholder="conform password" type="password" maxlength="6" size="15" max-length="80" required>
+            <br><br>
+
+            <!-- date select -->
+            <label for="DOB">Date Of Birth:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input placeholder="DOB" type="date" name="date" id="date" required>
+            <br><br>
+
+            <!-- cnic number -->
+            <label for="number">CNIC Number:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input placeholder="cnic" type="cnic" name="cnic" id="cnic" required>
+            <br><br>
+
+            <!-- contact number -->
+            <label for="number">Contact Number:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input placeholder="number" type="text" name="number" id="number" required>
+            <br><br>
+
+            <!-- Radio Button -->
+            <label for="gender"> Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <br><br>
+
+            <!-- checkboxes button -->
+            <label for="favourite-Course" required> Select Courses:</label><br><br>
+            <input type="checkbox" value="HTML" name="favourite-HTMLCourse">HTML<br>
+            <input type="checkbox" value="TYPESCRIPT" name="favourite-Course">TYPESCRIPT<br>
+            <input type="checkbox" value="PHYTON" name="favourite-Course">PHYTON<br>
+            <input type="checkbox" value="C++" name="favourite-Course">C++<br>
+            <input type="checkbox" value="REACT.JS" name="favourite-Course">REACT.JS<br><br>
+
+            <!-- drop down -->
+            <label for="country">Select Country: </label><br><br>
+            <select name="country" id="country" multiple="multiple" size="3" heigh="40px" required>
+                <option value="Ind">India</option>
+                <option selected value="dubai">Dubai</option>
+                <option value="pak">Pakistan</option>
+                <option value="turkey">Turkey</option>
+                <option value="malaysia">Malaysia</option>
+            </select> <br><br><br>
+
+            <!-- select imags -->
+            <input type="file" id="image-upload" name="image-upload" accept="image/*"><br><br>
+
+            <!-- address bar -->
+            <span>Address: </span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea id="address" name="address" placeholder="Address" cols="25" rows="3" required></textarea>
+            <br><br>
+
+            <!-- textarea  -->
+            <span>Give us Feedback:</span>
+            <textarea placeholder="feedback do!" cols="30" rows="5"></textarea><br><br> <br>
+
+            <!-- button -->
+            <button type="reset">Reset Form</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit">Submit</button><br><br>
+            <a href="home.html">NEXT PAGE</a>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+body {
+    background-image: url(./img/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: bisque;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+fieldset {
+    width: 40%;
+    margin: auto;
+    padding-inline: 30px;
+}
+button{
+    width: 20%;
+    height: 30px;
+    color: rgb(7, 39, 39);
+    background-color: rgb(187, 207, 98);
+    font-size: 15px;
+    font-weight: 15px;
+
+}
+a{
+    color: bisque;
+    text-decoration: none;
+}
